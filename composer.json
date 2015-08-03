@@ -1,0 +1,12 @@
+{
+    "name": "chasingmaxwell/mock-data",
+    "description": "A simple data mocking framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Sieg",
+            "email": "chasingmaxwell@gmail.com"
+        }
+    ],
+    "require": {}
+}
