@@ -1,15 +1,15 @@
 <?php
 
-namespace chasingmaxwell\MockData;
+namespace chasingmaxwell\MakeDo;
 
 /**
  * @file
- * Contains the class MockData.
+ * Contains the class MakeDo.
  */
 
-class MockData {
+class MakeDo {
 
-  /** @var array An array of mock data records grouped by type. */
+  /** @var array An array of MakeDo records grouped by type. */
   private static $records = array();
 
   /** @var array The functions or methods to invoke upon a data change. */
@@ -57,10 +57,10 @@ class MockData {
   /**
    * Reset data.
    *
-   * This is useful to set initial mock data records.
+   * This is useful to set initial MakeDo records.
    *
    * @param array $data
-   *   An array of mock data records grouped by type.
+   *   An array of MakeDo records grouped by type.
    * @param string $type
    *   The data type to reset.
    */
@@ -70,12 +70,12 @@ class MockData {
   }
 
   /**
-   * Add a mock record.
+   * Add a MakeDo record.
    *
    * @param string $type
    *   The record type.
    * @param array $record
-   *   An array of property values which make up a mocked data record.
+   *   An array of property values which make up a MakeDo record.
    *
    * @return array
    *   The record which has been added.
@@ -87,12 +87,12 @@ class MockData {
   }
 
   /**
-   * Delete a mock record.
+   * Delete a MakeDo record.
    *
    * @param string $type
    *   The record type.
    * @param array $id
-   *   The numeric identifier for the mock record being used as the key in the
+   *   The numeric identifier for the MakeDo record being used as the key in the
    *   records array.
    */
   public function deleteRecord($type, $id) {

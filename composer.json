@@ -1,6 +1,6 @@
 {
-  "name": "chasingmaxwell/mock-data",
-  "description": "A simple data mocking framework.",
+  "name": "chasingmaxwell/makedo",
+  "description": "Temporary test data storage.",
   "license": "MIT",
   "authors": [
     {
@@ -11,7 +11,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "chasingmaxwell\\MockData\\": "src"
+      "chasingmaxwell\\MakeDo\\": "src"
     }
   }
 }
